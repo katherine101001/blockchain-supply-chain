@@ -8,18 +8,18 @@
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                     System Architecture                          │
+│                     System Architecture                         │
 ├──────────────┬──────────────────────┬───────────────────────────┤
-│   Flutter    │    FastAPI Backend    │    Ethereum (Sepolia)     │
-│   Mobile     │    (Render Cloud)     │                           │
-│              │                       │   SupplyChainRegistry     │
-│  BLoC State  │   CRUD -> Service ->  │   Smart Contract          │
-│  GoRouter    │   Web3.py Client      │   recordHash (immutable)  │
-│  Design Sys  │   SQLAlchemy ORM      │   getProduct() / addBatch │
-│  Dio HTTP    │   Pydantic Schemas    │                           │
-│              │                       │                           │
-│  Android/iOS │   PostgreSQL          │   Sepolia Testnet         │
-│  Web/Desktop │   (Supabase/Render)   │   (Infura/Alchemy RPC)    │
+│   Flutter    │   FastAPI Backend    │    Ethereum (Sepolia)     │
+│   Mobile     │   (Render Cloud)     │                           │
+│              │                      │   SupplyChainRegistry     │
+│  BLoC State  │  CRUD -> Service ->  │   Smart Contract          │
+│  GoRouter    │  Web3.py Client      │   recordHash (immutable)  │
+│  Design Sys  │  SQLAlchemy ORM      │   getProduct() / addBatch │
+│  Dio HTTP    │  Pydantic Schemas    │                           │
+│              │                      │                           │
+│  Android/iOS │  PostgreSQL          │   Sepolia Testnet         │
+│  Web/Desktop │  (Supabase/Render)   │   (Infura/Alchemy RPC)    │
 └──────────────┴──────────────────────┴───────────────────────────┘
 ```
 
